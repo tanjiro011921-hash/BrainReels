@@ -20,12 +20,6 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      # The runner image already ships the Android SDK; just accept licenses and add the packages we need.
-      - name: Install Android SDK packages
-        run: |
-          yes | sdkmanager --licenses > /dev/null || true
-          sdkmanager "platforms;android-34" "build-tools;34.0.0"
-
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v3
 
