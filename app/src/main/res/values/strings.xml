@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BrainReels</string>
+    <string name="a11y_service_label">BrainReels Reel detector</string>
+    <string name="a11y_service_description">Detects when you view a new Reel in Instagram or Facebook so BrainReels can keep a local daily count. It only reads limited screen structure from those apps, ignores text fields and passwords, and never sends data anywhere.</string>
+    <string name="widget_content_description">BrainReels counter. Reels viewed today: %1$d. Double tap to open the dashboard.</string>
+    <string name="fgs_channel_name">Floating counter</string>
+    <string name="fgs_title">BrainReels counter is active</string>
+    <string name="fgs_hide">Hide</string>
+</resources>
